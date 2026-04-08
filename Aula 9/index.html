@@ -46,18 +46,18 @@
             </tr>
             <tr>
                 <td>
-                    Senha
+                    Senha:
                 </td>
                 <td>
                     <form action="mailto:matheussipioni@gmail.com" method="get">
                         <label for="Senha"></label>
-                        <input type="number" name="senha" id="senha" value="">
+                        <input type="password" name="senha" id="senha" value="">
                     </form>
                 </td>
             </tr>
             <tr>
                 <td>
-                    Idade
+                    Idade:
                 </td>
                 <td>
                     <form action="mailto:matheussipioni@gmail.com" method="get">
@@ -66,12 +66,76 @@
                     </form>
                 </td>
             </tr>
-            <Tr>
+            <tr>
                 <td colspan="2">
                     <p>Deixe seu comentário:</p>
                     <textarea name="comentário" id="comentario" cols="50" rows="10" readonly></textarea>
                 </td>
-            </Tr>
+            </tr>
+            <tr>
+                <td>
+                    <form action="mailto:matheussipioni@gmail.com" method="get"></form>
+                    <label for="">Matéria de Interesse:
+                    <p><input type="checkbox" name="Backend" id="Backend"> Backend</p>
+                    <p><input type="checkbox" name="Frontend" id="Frontend"> Frontend</p>
+                    <p><input type="checkbox" name="FullStack" id="FullStack"> FullStack</p></label>
+                </td>
+                <td>
+                    <label for="">Tipo de Viagem:
+                    <p><input type="radio" name="Tipo de Viagem" id="Tipo de Viagem" value="Negócios">Negócios</p>
+                    <p><input type="radio" name="Tipo de Viagem" id="Tipo de Viagem" value="Lazer">Lazer</p>
+                    <p><input type="radio" name="Tipo de Viagem" id="Tipo de Viagem" value="Turismo">Turismo</p>
+                    <p><input type="radio" name="Tipo de Viagem" id="Tipo de Viagem" value="Acadêmico">Acadêmico</p></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Esporte favorito:</label>
+                    <select name="Esporte favorito" id="Esporte favorito" size="4">
+                        <option value="Futebol">Futebol</option>
+                        <option value="Basquete">Basquete</option>
+                        <option value="Vôlei">Vôlei</option>
+                        <option value="Tênis">Tênis</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Tipo de Investimento</label>
+                    <select name="Tipos de Investimento" id="Tipos de Investimento" size="1">
+                        <option value="Poupança">Poupança</option>
+                        <option value="CDB">CDB</option>
+                        <option value="Tesouro Direto">Tesouro Direto</option>
+                        <option value="Fundos Imobiliários">Fundos Imobiliários</option>
+                        <option value="CDI">CDI</option>
+                        <option value="DEBÊNTURES">DEBÊNTURES</option>
+                        <option value="Criptomoedas">Criptomoedas</option>
+                        <option value="Ações">Ações</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Escolha uma cor</label>
+                    <input type="color" name="cor" id="cor">
+                </td>
+                <td>
+                    <label for="">Escolha um arquivo</label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="">Escolha uma data</label>
+                    <input type="datetime-local" name="data" id="data">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=""><input type="submit" value="Enviar"></label>
+                </td>
+                <td>
+                    <label for=""><input type="reset" value="Limpar"></label>
+                </td>
+            </tr>
         </tbody>
         <tfoot></tfoot>
     </table>
