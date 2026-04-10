@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <table border="1">
+        <form action="mailto:matheussipioni@gmail.com" method="get">
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Nome:
+                </td>
+                <td>
+                        <label for="nome_usuario"></label>
+                        <Input type="text" name="nome_usuario" id="nome_usuario" maxlength="50" value="" placeholder="Digite seu nome"></Input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E-mail pessoal:
+                </td>
+                <td>
+                        <label for="E-mail"></label>
+                        <input type="email" name="email_usuario" id="email_usuario" maxlength="50" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E-mail (patter): 
+                </td>
+                <td>
+                        <input type="E-mail_patter" name="E-mail_patter" id="E-mail_patter" maxlength="50" value="" placeholder="Digite seu email com @">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Senha:
+                </td>
+                <td>
+                        <input type="password" name="senha" id="senha" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Idade:
+                </td>
+                <td>
+                        <input type="number" name="idade" id="idade" value="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>Deixe seu comentário:</p>
+                    <textarea name="comentário" id="comentario" cols="50" rows="10" ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Matéria de Interesse:
+                    <p><input type="checkbox" name="Backend" id="Backend"> Backend</p>
+                    <p><input type="checkbox" name="Frontend" id="Frontend"> Frontend</p>
+                    <p><input type="checkbox" name="FullStack" id="FullStack"> FullStack</p>
+                </td>
+                <td>
+                    Tipo de Viagem:
+                    <p><input type="radio" name="Tipo de Viagem" id="Tipo de Viagem" value="Negócios">Negócios</p>
+                    <p><input type="radio" name="Tipo de Viagem" id="Tipo de Viagem" value="Lazer">Lazer</p>
+                    <p><input type="radio" name="Tipo de Viagem" id="Tipo de Viagem" value="Turismo">Turismo</p>
+                    <p><input type="radio" name="Tipo de Viagem" id="Tipo de Viagem" value="Acadêmico">Acadêmico</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Esporte favorito:
+                    <select name="Esporte favorito" id="Esporte favorito" size="4">
+                        <option value="Futebol">Futebol</option>
+                        <option value="Basquete">Basquete</option>
+                        <option value="Vôlei">Vôlei</option>
+                        <option value="Tênis">Tênis</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="Tipos de Investimento" id="Tipos de Investimento" size="1">
+                        <option value="Poupança">Poupança</option>
+                        <option value="CDB">CDB</option>
+                        <option value="Tesouro Direto">Tesouro Direto</option>
+                        <option value="Fundos Imobiliários">Fundos Imobiliários</option>
+                        <option value="CDI">CDI</option>
+                        <option value="DEBÊNTURES">DEBÊNTURES</option>
+                        <option value="Criptomoedas">Criptomoedas</option>
+                        <option value="Ações">Ações</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="color" name="cor" id="cor">
+                </td>
+                <td>
+                    <input type="file" name="arquivo" id="arquivo">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="datetime-local" name="data" id="data">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Enviar">
+                </td>
+                <td>
+                    <input type="reset" value="Limpar">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+        </form>
+    </table>
+</body>
+</html>
