@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: beige;
+}
+
+.titulo {
+    display: flex; 
+    flex-direction: row; /* Faz o container se ajustar em modelo de linhas */
+    justify-content: center; /* Faz o container ir para o centro */
+}
+
+.navegacao {
+    display: flex;          /* Faz os itens ficarem lado a lado */
+    list-style: none;       /* Remove as bolinhas (adereço) */
+    padding: 0px;
+    margin: 0;
+    height: 60px;
+    align-items: center;    /* Alinha os itens verticalmente no centro da barra */
+    justify-content: space-around; /* Os itens ficam com o mesmo espaço entre eles, mas sem encostar na borda */ 
+    background-color: brown;
+}
+
+.navegacao li {
+    margin-right: 20px;     /* Dá um espaço entre os links */
+    color: bisque;
+}
+
