@@ -32,25 +32,118 @@ body {
     text-decoration: none;
 }
 
+.navegacao li:hover {
+    color: black;
+    background-color: bisque;
+}
+
+.navegacao li:active {
+    color: black;
+    background-color: bisque;
+}
+
 .texto {
     display: flex;
     flex-direction: column;
     background-color: brown;
     margin: 10px;
-    border-left: 4px solid bisque;
-    border-bottom: 4px solid bisque;
+    border: 4px solid bisque;
     border-radius: 4px;
     padding: 4px;
 }
 
-.texto h1 {
-    justify-content: center;
-}
-
 .texto h2 {
-    text-align: justify;
+    text-align: center;
+    align-self: center;
+    background-color: bisque;
+    color: brown;
+    width: 90%;
 }
 
-.texto p {
-    text-align: justify;
+.agrupar {
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    margin: 10px;
+    border: 4px solid bisque;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.caixa1 {
+    flex: 1 1 0;
+    background-color: bisque;
+    color: brown;
+    padding: 4px;
+    margin: 5px;
+}
+
+.caixa1:focus-within {
+    background-color: black;
+    color: bisque;
+}
+
+.caixa2 {
+    flex: 2 1 0;
+    background-color: bisque;
+    color: brown;
+    padding: 4px;
+    margin: 5px;
+}
+
+.caixa2:focus-within {
+    background-color:indianred;
+    color:gold
+}
+
+.fundo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: bisque;
+    margin: 10px;
+    border: 4px solid brown;
+    border-radius: 4px;
+}
+
+.contato1 {
+    flex: 0 1 auto;
+    background-color:grey;
+    color: black;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+.contato1:hover {
+    background-color: #25d366; /* Verde Whatsapp */
+    text-decoration: underline;
+}
+
+.contato2 {
+    flex: 0 1 auto;
+    background-color:grey;
+    color: black;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+.contato2:hover {
+    background-color: #e1306c; /* Rosa Instagram */
+    text-decoration: underline;
+}
+
+.contato3 {
+    flex: 0 1 auto;
+    background-color:grey;
+    color: black;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+.contato3:hover {
+    background-color: #1877f2; /* Azul Facebook */
+    text-decoration: underline;
 }
