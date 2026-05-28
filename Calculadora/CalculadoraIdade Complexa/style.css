@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;               
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+}
+
+#calculadora {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../IMG/nascimento.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 150px; 
+    padding: 15px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#button {
+    width: 100%;
+    margin-top: auto;
+    display: flex;   
+}
+
+#button input[type="button"] {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px; 
+    cursor: pointer;
+}
